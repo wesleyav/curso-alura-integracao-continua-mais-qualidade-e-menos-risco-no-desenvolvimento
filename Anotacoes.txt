@@ -2,4 +2,15 @@
 
 #################################################
 
+Sistema de controle de versão
 
+- ferramenta não importa
+- comita tudo necessário para construção do projeto
+	- código
+	- scripts
+	- migrações, schemas
+	- IDE configs
+	- não comita o que pode ser contruído (gem, jar, image, modules)
+	- clone e começar (deve ser fácil)
+
+#################################################
