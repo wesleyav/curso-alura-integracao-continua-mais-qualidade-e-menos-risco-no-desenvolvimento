@@ -1,0 +1,5 @@
+"Integração contínua (CI) é uma prática de desenvolvimento que requer que os desenvolvedores integrem o código em um repositório compartilhado várias vezes ao dia."
+
+#################################################
+
+
