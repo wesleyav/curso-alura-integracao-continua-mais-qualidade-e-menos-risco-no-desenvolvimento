@@ -14,3 +14,10 @@ Sistema de controle de versão
 	- clone e começar (deve ser fácil)
 
 #################################################
+
+Organização dos repositórios
+
+- cada projeto em seu repositório (Multi-repo)
+- cada projeto no mesmo repositório (Mono-repo)
+
+#################################################
