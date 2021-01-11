@@ -79,3 +79,25 @@ Complexidade (1 - fácil, 5 - difícil)
 5 - git flow
 
 #################################################
+
+Como evitar branches de vida longa?
+
+Feature Flags e Branch by Abastraction
+
+- Feature flags: Suponhamos uma nova funcionalidade em nosso projeto que terá um tempo longo de implementação. Contudo, não queremos criar uma nova ramificação para esse processo, queremos trabalhar diretamente com o master ainda que o código não esteja completo.
+
+Anteriormente, comentamos que cada commit deve ser releaseble, isto é, pode ser publicado. Existe uma maneira de trabalhar sem branches: a feature flag.
+
+O código é inserido no master, mas ele não é visível para a equipe. O Feature flag server também para testar funcionalidades, por exemplo.
+
+- Branch by Abastraction: apesar do nome, não envolve a criação de uma nova ramificação. Temos um módulo ligado, uma parte da aplicação utiliza uma biblioteca antiga e precisa ser substituída. Esse é um processo lento, e muitos elementos precisam ser alterados.
+
+O primeiro passo é introduzir uma abstração no código principal, isto é, uma camada intermediária para isolar o código que utiliza o módulo, portanto todas as chamadas deverão passar pela camada de abstração. Essa camada pode ser uma interface, várias ou mesmo uma classe que realiza delegações.
+
+Uma vez que é aplicada essa técnica de desacoplamento, podemos gradativamente a re-implementação. Podemos utilizar um módulo legado para o que é de fato utilizava o módulo antigo.
+
+modulo
+
+Com o tempo, o módulo antigo fica em desuso e pode ser suprimido completamente.
+
+#################################################
