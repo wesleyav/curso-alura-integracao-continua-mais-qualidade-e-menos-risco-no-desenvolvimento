@@ -298,3 +298,16 @@ Build quebrado
 Caso o build não possa ser corrigido em um intervalo de tempo curto, o commit que gerou o problema deve ser desfeito para o que o projeto continue, e este é um ponto fundamental.
 
 #################################################
+
+O que aprendemos?
+
+- O servidor de integração contínua monitora o repositório de código
+	- Ao detectar uma alteração, deve iniciar o build do projeto
+	- O build deve acontecer a cada novo commit
+	- O resultado do build deve ser publicado
+	- Os desenvolvedores devem ser notificados sobre o status do build
+
+- Um build quebrado deve ser arrumado em no máximo 10 minutos, com prioridade máxima
+	- É responsabilidade de todos da equipe arrumar um build quebrado
+
+#################################################
