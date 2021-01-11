@@ -369,3 +369,11 @@ A entrega contínua também exige uma mudança no comportamento e na cultura da 
 		- otimizar para resiliência
 
 #################################################
+
+Sobre DevOps
+
+DevOps é um movimento cultural que fisa a integrar e otimizar o processo de aprendizagem entre os integrantes da equipe. DevOps não é um título de cargo, mas uma visão de organização de trabalho que visa criar um pipeline veloz, seguro e integrado.
+
+Precisamos, claro, de ferramentas que irão facilitar as integrações e monitoramento, mas é muito mais um movimento culturao do que uma aparelhagem técnica.
+
+#################################################
