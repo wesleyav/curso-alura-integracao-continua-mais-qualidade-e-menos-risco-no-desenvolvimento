@@ -159,3 +159,42 @@ Testes automatizados
 - feedback
 
 #################################################
+
+Etapas do build
+- clean
+- compile
+- unit tests
+- static analysis
+- package software
+- integrate database
+
+Builds automatizados
+
+- build a cada commit (continuous)
+- tudo automatizado / single command
+- build sem depender da IDE
+- tudo está no repositório
+
+Build rápido / feedback rápido
+
+- otimize o build, métricas ajudam
+	- verifique a fase de testes e análise do código
+	- verifique ordem dessas fases
+	- verifique a infra do build system
+	- use cache
+	- use staged build / pipeline (light build, heavy build)
+	- regra: ten-minute build (xp programming)
+	
+Resumindo:
+
+- use ferramentas para automatizar seu build
+- use commit-build
+- build deve ser independente da IDE
+- tudo que precisa esta no repositório (install scripts, env settings, buils scripts, config files, database files, code)
+- estrutura de diretórios bem definidos e conhecidos
+- builds rápidos que falham rápido (10 min)
+- script único que controi para ambientes (parametrizado)
+	- comand único de build (botão de build)
+- use build machine (CI daemon)
+
+#################################################
