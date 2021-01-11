@@ -33,3 +33,25 @@ Organização dos repositórios
 	- Multi-repo separa um repositório para cada projeto
 
 #################################################
+
+Ramificações
+
+trunk based development
+git flow
+github flow
+one flow
+feature branch flow
+pull request flow
+gitlab flow
+
+"Everyone commits To the Mainline every day." - Martin Fowler
+
+- A regra da integração continua é antecipar os problemas. A princípio, o branch pode ser um perigo, um ampliador de risco. Existem alguams regras que podemo minimizar esse risco:
+
+- commits simples e releaseble, orientados à uma tarefa
+
+- branches de vida curta, margens mais simples
+
+- estratégia combinada pela equipe
+
+#################################################
