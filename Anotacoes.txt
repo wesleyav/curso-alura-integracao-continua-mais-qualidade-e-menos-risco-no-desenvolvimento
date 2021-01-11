@@ -137,3 +137,25 @@ O que aprendemos?
 - Rebase não deve ser usado em branches compartilhadas/públicas
 
 #################################################
+
+Testes automatizados
+
+- testes fazem parte da construção
+- rodar testes antes do commit
+- TDD pode ajudar
+- desempenho importa
+
+- Test Driven Development
+- Funcional tests
+- Integration tests
+- Unit tests
+- Smoke tests
+
+- categorizar testes
+- rodar testes rápidos primeiro
+- usar smoke tests
+- testes fazem parte do build
+- aplicar boas práticas de testes
+- feedback
+
+#################################################
