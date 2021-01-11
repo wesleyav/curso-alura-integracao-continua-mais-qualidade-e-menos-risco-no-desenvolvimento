@@ -101,3 +101,10 @@ modulo
 Com o tempo, o módulo antigo fica em desuso e pode ser suprimido completamente.
 
 #################################################
+
+Como sincronizr branches?
+
+- Merge
+- Rebase
+
+#################################################
