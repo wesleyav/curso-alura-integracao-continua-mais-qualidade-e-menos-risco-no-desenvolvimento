@@ -288,3 +288,13 @@ Azure (https://azure.microsoft.com/pt-br/services/devops/server/)
 entre outras possibilidades!
 
 #################################################
+
+Build quebrado
+
+É tarefa de toda uma equipe resolver um problema no build o mais rápido possível, afinal não poderá ser realizados novos commits até que o build esteja estável e confiável novamente.
+
+"Nobody has a higher priority task than fixing the build." -Kent Beeck
+
+Caso o build não possa ser corrigido em um intervalo de tempo curto, o commit que gerou o problema deve ser desfeito para o que o projeto continue, e este é um ponto fundamental.
+
+#################################################
